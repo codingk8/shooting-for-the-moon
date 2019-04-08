@@ -66,16 +66,17 @@
 
 ## Academic Honesty Disclaimer
 
-### If you're a freeCodeCamp student, please use this project as an inspiration and write your own code.<br>It's what makes us all better developers :wink:<br>
+### If you're a freeCodeCamp student, please use this project as an inspiration and write your own code.<br>It's what makes us all better developers :wink:  
+<br>
 
 ## Intellectual property and copyrights Disclaimer
 
-To come
+To come  
 <br>
 
 ## Acknowledgements & Resources
 
-To come
+To come  
 <br>
 
 ---
