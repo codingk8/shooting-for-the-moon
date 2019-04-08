@@ -1,4 +1,4 @@
-<h1 align="center">"Shooting for the moon" - A tribute page to Katherine G. Johnson</h1>
+<h1 align="center">"Shooting for the moon"<br>A tribute page to Katherine G. Johnson</h1>
 
 <h2 align="center">Project made for <a href="https://www.freecodecamp.org/">freeCodeCamp</a><br>"Responsive Web Design" certification</h2>
 
