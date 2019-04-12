@@ -72,7 +72,7 @@
 ## Intellectual property and copyrights Disclaimer
 
 ##### I wrote the code and share below the credits and copyrights of the contents I've used in the website and that do NOT belong to me
-##### If you encountered mistakes in the attribution of these rights, please be sure to let me know (best contact is on [Twitter](https://twitter.com/codingk8)) so that I can update the information
+##### If you encounter mistakes in the attribution of these rights, please be sure to let me know (best contact is on [Twitter](https://twitter.com/codingk8)) so that I can update the information
 
 + Moon top picture (also used for the favicon) - Credit: photo by [Matthew N](https://unsplash.com/photos/zrzy-NPzccs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
 + <ins>Hidden figures</ins> book and book cover - Copywritgh owners: Margot Lee Shetterly & HarperCollins Publishers
@@ -84,7 +84,6 @@
 + Barbie® & Inspiring Women™ - Copyright owner: Mattel
 + Katherine Johnson "at her desk" picture from NASA [here](https://www.nasa.gov/image-feature/katherine-johnson-at-work-1962) - Image Credit: NASA Langley Research Center
 + Apollo 11 picture from NASA [here](https://www.nasa.gov/centers/johnson/about/history/jsc50/as11-40-5875.html) - Image Credit: NASA
-<br>
 
 ## Acknowledgements & Resources
 
