@@ -3,7 +3,7 @@
 <h2 align="center">Project made for <a href="https://www.freecodecamp.org/">freeCodeCamp</a><br>"Responsive Web Design" certification</h2>
 
 
-<p align="center"><img src="#" alt="Shooting for the moon Screenshot" width="1650px"></p>
+<p align="center"><img src="assets/readme/20190412_codingk8_shooting_for_the_moon_validated_screenshot.png" alt="Shooting for the moon Screenshot" width="1650px"></p>
 
 ---
 
@@ -27,8 +27,9 @@
 ##### [See project original description here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 
 #### Additionnal Users stories: 
-- [x] Sticky navbar
-- [x] Full responsive  
+- [x] Sticky navbar & footer
+- [x] Embedded video
+- [x] Full responsive
 
 ### How the project works
 
@@ -36,11 +37,10 @@
 * HTML
 * CSS
 * Flexbox
-* [Bootstrap](https://getbootstrap.com/)
 * [jQuery](https://jquery.com/)
 * JavaScript
-* [Google fonts](https://fonts.google.com/) for Ubuntu Mono
-* [Font Awesome](https://fontawesome.com/) icons
+* [Google fonts](https://fonts.google.com/) for "East Sea Dokdo" & "Noto Sans KR"
+* [Font Awesome](https://fontawesome.com/) for all icons
 
 ### [Click here to see the project live](https://codingk8.github.io/shooting-for-the-moon/)
 <br>
@@ -71,16 +71,34 @@
 
 ## Intellectual property and copyrights Disclaimer
 
-To come  
+##### I wrote the code and share below the credits and copyrights of the contents I've used in the website and that do NOT belong to me
+##### If you encountered mistakes in the attribution of these rights, please be sure to let me know (best contact is on [Twitter](https://twitter.com/codingk8)) so that I can update the information
+
++ Moon top picture (also used for the favicon) - Credit: photo by [Matthew N](https://unsplash.com/photos/zrzy-NPzccs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
++ <ins>Hidden figures</ins> book and book cover - Copywritgh owners: Margot Lee Shetterly & HarperCollins Publishers
++ "Hidden figures" movie, movie poster & trailer - Copyright owner: Twentieth Century Fox<br>
++ "Katherine G. Johnson" documentary - Publisher: Atheneum Books for Young Readers
++ <ins>Reaching for the moon</ins>, children book about Katherine Johnson - Author: Katherine Johnson - Publisher: Atheneum Books for Young Readers
++ <ins>Counting on Katherine</ins>, children book about Katherine Johnson - Author: Helaine Becker, Illustrator: Tiemdow Phumiruk, Publisher: Henry Holt and Co.
++ <ins>Katherine Johnson - You should meet</ins>, children book about Katherine Johnson - Author: Thea Feldman, Illustrator: Alyssa Petersen, Publisher: Simon Spotlight
++ Barbie® & Inspiring Women™ - Copyright owner: Mattel
++ Katherine Johnson "at her desk" picture from NASA [here](https://www.nasa.gov/image-feature/katherine-johnson-at-work-1962) - Image Credit: NASA Langley Research Center
++ Apollo 11 picture from NASA [here](https://www.nasa.gov/centers/johnson/about/history/jsc50/as11-40-5875.html) - Image Credit: NASA
 <br>
 
 ## Acknowledgements & Resources
 
-To come  
+Thanks to my husband who gave me a DVD of the film that made me discover the fascinating story of Katherine Johnson and her friends, and eventually led me to dig further and to create this website as a code-training project
+
+[Blink effect](https://stackoverflow.com/questions/4894488/blinking-text-cross-browser)  
+[Glitch effect](https://codepen.io/derekjp/pen/ozEdgK/) - Not used  
+[Texts animations](https://speckyboy.com/css-javascript-text-animation-snippets/)
+[Fade in effect](https://codepen.io/stevenlewis/pen/YarNJV)
 <br>
 
 ---
 
-##### Latest update: 20190408
+##### Latest update: 20190411
+<br>
 
 ---
