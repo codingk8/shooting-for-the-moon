@@ -88,7 +88,7 @@
 
 ## Acknowledgements & Resources
 
-Thanks to my husband who gave me a DVD of the film that made me discover the fascinating story of Katherine Johnson and her friends, and eventually led me to dig further and to create this website as a code-training project
+A big thank you to my husband who offered me the DVD of the movie that made me discover the fascinating story of Katherine Johnson and her friends, and eventually led me to dig further and to create this website as a code-training project
 
 [Blink effect](https://stackoverflow.com/questions/4894488/blinking-text-cross-browser)  
 [Glitch effect](https://codepen.io/derekjp/pen/ozEdgK/) - Not used  
