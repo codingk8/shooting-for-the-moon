@@ -84,6 +84,7 @@
 + Barbie® & Inspiring Women™ - Copyright owner: Mattel
 + Katherine Johnson "at her desk" picture from NASA [here](https://www.nasa.gov/image-feature/katherine-johnson-at-work-1962) - Image Credit: NASA Langley Research Center
 + Apollo 11 picture from NASA [here](https://www.nasa.gov/centers/johnson/about/history/jsc50/as11-40-5875.html) - Image Credit: NASA
+<br>
 
 ## Acknowledgements & Resources
 
@@ -93,6 +94,7 @@ Thanks to my husband who gave me a DVD of the film that made me discover the fas
 [Glitch effect](https://codepen.io/derekjp/pen/ozEdgK/) - Not used  
 [Texts animations](https://speckyboy.com/css-javascript-text-animation-snippets/)
 [Fade in effect](https://codepen.io/stevenlewis/pen/YarNJV)
+<br>
 <br>
 
 ---
