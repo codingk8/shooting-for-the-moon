@@ -1,0 +1,307 @@
+<!--
+    Made with code and care in Paris, France, by Codingk8 - 2019 - Twitter: @codingk8
+
+    Project made for the freeCodeCamp curriculum, "Responsive Web Design" Certification
+    Project #1 - Tribute Page
+
+    Title: Shooting for the moon - A tribute to Katherine Johnson
+-->
+
+<!DOCTYPE html>
+
+  <html lang="en" dir="auto">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Shooting for the moon</title>
+        <meta name="author"       content="Codingk8" />
+        <meta name="description"  content="freeCodeCamp - Responsive Web Design Certification - Project #1-1, made by Codingk8" />
+        <meta name="keywords"     content="freeCodeCamp, certification, responsive, web design, project, 
+                                        html, css, flexbox, javascript, jquery, font awesome" />
+
+        <!-- Favicon links -->
+        <!-- 
+        <link rel="icon" type="image/png" href="assets/favicon/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+        -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+        
+        <!-- Responsive viewport - ALWAYS CHECK ON BOOTSTRAP SITE 20181201 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Import Bootstrap CDN - ALWAYS CHECK THE VERSION 20190214 - Put at the bottom of the file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Import jQuery CDN is at the bottom of the file -->
+
+        <!-- Import Font Awesome CDN-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+        <!-- Import Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Noto+Sans+KR:400,700" rel="stylesheet">
+
+        <!-- Local stylesheet link -->
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+ 
+    </head>
+    
+    <body id="container-fluid" data-spy="scroll" data-target="#list" data-offset="0">
+
+        <main id="main">
+
+            <!-- Header -->
+            <header id="header">
+                <div id="header-div">
+                    <h1 id="header-title">"Shooting for the moon"</h1>
+                    <h2 id="title">A tribute to Katherine Johnson</h2>
+                </div>
+            </header>
+
+            <!-- NavBar -->
+            <nav id="navbar">
+                <ul id="list" class="nav nav-pills nav-fill justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#facts">Facts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#book">Book</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#movie">Movie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#documentary">Documentary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#more">More</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+                </ul>
+            </nav>
+
+            <!-- Section 1 - Introduction -->
+            <section id="introduction" class="main-section">
+                <h2>The woman who sent humanity to the moon</h2>
+                <article class="small-width">
+                    <div class="section-content-quote">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>Katherine Johnson is an 
+                            African-American mathematician whose calculations of orbital mechanics as a NASA employee 
+                            were critical to the success of the first and subsequent U.S. manned spaceflights.<br>
+                            Johnson's work included calculating trajectories, launch windows and emergency return paths for 
+                            Project Mercury spaceflights, including those of astronauts Alan Shepard, the first American in space, 
+                            and John Glenn, the first American in orbit, and rendezvous paths for the Apollo lunar lander and 
+                            command module on flights to the Moon.<br>
+                            <a id="tribute-link" class="link block mrg-top" href="https://en.wikipedia.org/wiki/Katherine_Johnson" target="_blank">Katherine Johnson page on Wikipedia</a>
+                        </p>
+                    </div>
+                </article>
+                <div id= img-div>
+                    <img id="image" src="assets/images/Katherine_G_Johnson_NASA.jpg" alt="Katherine G. Johnson at her desk at NASA in 1966 - NASA" title="Katherine G. Johnson at her desk at NASA in 1966 - NASA">
+                    <p id="img-caption" class="mrg-top">Katherine G. Johnson at her desk at NASA in 1966</p>
+                </div>
+            </section>
+
+            <!-- Section 2 - Facts -->
+            <section id="facts" class="main-section">
+                <h2 class="section-title">Facts</h2>
+                <article id="tribute-info" class="small-width">
+                    <ul>
+                        <li class="fact-li">Katherine Johnson was born in 1918 in West Virginia. She was the youngest of four children. 
+                            She showed strong mathematical abilities from an early age.<br>
+                            Because their County did not offer public schooling for African-American students past the eighth grade, the Colemans 
+                            arranged for their children to attend high school in Institute, West Virginia.<br>
+                            Johnson was enrolled when she was only 10 years old.</li>
+                        <li class="fact-li">Johnson graduated from high school at 14 and entered West Virginia State.<br>
+                            As a student, she took every math course offered by the college, and graduated summa cum laude in 1937, at age 18, 
+                            with degrees in mathematics and French.<br>
+                            She took on a teaching job at a black public school in Marion, Virginia.</li>
+                        <li class="fact-li">In 1953, she became part of the early NASA team.</li>
+                        <li class="fact-li">From 1958 until her retirement in 1986, Johnson worked as an aerospace technologist, moving during her career to the Spacecraft Controls Branch.</li>
+                        <li class="fact-li">In 1961, she calculated the trajectory for the space flight of Alan Shepard, the first American in space. 
+                            She also calculated the launch window for his 1961 Mercury mission.<br>
+                            She plotted backup navigation charts for astronauts in case of electronic failures.<br>
+                            Also in 1961, her work helped to ensure 
+                            that Alan Shepard's Freedom 7 Mercury capsule would be quickly found after landing, using the accurate trajectory that had 
+                            been established.</li>
+                        <li  class="fact-li">In 1969, she helped to calculate the trajectory for the Apollo 11 flight to the Moon.</li>
+                        <li class="fact-li">In 1970, Johnson worked on the Apollo 13 moon mission. When the mission was aborted, her work on backup procedures and 
+                            charts helped set a safe path for the crew's return to Earth, creating a one-star observation system that would allow astronauts 
+                            to determine their location with accuracy.</li>
+                        <li class="fact-li">Later in her career, Johnson worked on the Space Shuttle program, the Earth Resources Satellite, 
+                            and on plans for a mission to Mars.</li>
+                        <li class="fact-li">In 2015, President Barack Obama presented Johnson with the Presidential Medal of Freedom.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <!-- Section 3 - Book -->
+            <section id="book" class="main-section">
+                <h2 class="section-title">Book</h2>
+                <article class="small-width">
+                    <div class="section-content-center">
+                        <div class="section-content-quote">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>"Hidden Figures: The American Dream and the Untold Story of the Black Women Who Helped Win the Space Race" 
+                                is a 2016 non-fiction book written by Margot Lee Shetterly.<br>
+                                Hidden Figures tells the story of three African-American women who worked as computers to 
+                                solve problems for engineers and others at NASA. For the first years of their careers, 
+                                the workplace was segregated and women were kept in the background as human computers.<br>
+                                The book explains how these three historical women overcame discrimination and racial segregation 
+                                to become three American achievers in mathematics, scientific and engineering history.<br>
+                                The main character, Katherine Johnson, calculated rocket trajectories for the Mercury and Apollo missions.<br>
+                                <a class="link block mrg-top" href="https://en.wikipedia.org/wiki/Hidden_Figures_(book)" target="_blank">The book "Hidden figures" page on Wikipedia</a>
+                            </p>
+                        </div>
+                        <a href="https://www.amazon.com/Hidden-Figures-YRE-Margot-Shetterly/dp/1432850253/ref=sr_1_5?keywords=hidden+figures&qid=1554744778&s=books&sr=1-5" target="_blank" class="fade-content">
+                            <img id="book-image" src="assets/images/Hidden_Figures_Book_Cover.png" alt="&quot;Hidden Figures&quot; Book Cover" title="Copyright owners: Margot Lee Shetterly & HarperCollins Publishers"></a>
+                    </div>
+                </article> 
+
+            </section>
+            
+            <!-- Section 4 - Movie -->
+            <section id="movie" class="main-section">
+                <h2 class="section-title">Movie</h2>
+                <article class="small-width">
+                    <div id="movie-div" class="section-content-center">
+                        <a href="https://www.amazon.com/Hidden-Figures-Taraji-P-Henson/dp/B01LTI1RHG/ref=sr_1_2?keywords=hidden+figures&qid=1554822760&s=movies-tv&sr=1-2-catcorr" target="_blank" class="fade-content">
+                            <img id="movie-image" src="assets/images/Hidden_Figures_Movie_Poster.jpg" alt="&quot;Hidden figures&quot; Movie Poster - Copyright: Twentieth Century Fox" title="Copyright owner: Twentieth Century Fox"></a>
+                        <div class="section-content-quote">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>"Hidden Figures" is a 2016 American biographical drama film loosely based on the non-fiction book 
+                                of the same name by Margot Lee Shetterly about black female mathematicians who worked at the National Aeronautics and 
+                                Space Administration (NASA) during the Space Race.<br>
+                                The film stars Taraji P. Henson as Katherine Johnson, a mathematician who calculated flight trajectories for Project Mercury 
+                                and other missions. The film also features Octavia Spencer as NASA supervisor and mathematician Dorothy Vaughan and 
+                                Janelle Monáe as NASA engineer Mary Jackson.<br>
+                                The film received positive reviews from critics. It was chosen by National Board of Review as one of the top ten films 
+                                of 2016 and was nominated for numerous awards, including three Oscar nominations (Best Picture, Best Adapted Screenplay and 
+                                Best Supporting Actress for Spencer), and two Golden Globes (Best Supporting Actress for Spencer and Best Original Score).
+                                <a class="link block mrg-top" href="https://en.wikipedia.org/wiki/Hidden_Figures" target="_blank">The movie "Hidden figures" page on Wikipedia</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="movie-trailer" class="section-content-column mrg-top">
+                        <h3 id="trailer-title" class="mrg-top">"Hidden figures" official trailer</h3>
+                        <iframe id="trailer" src="https://www.youtube.com/embed/5wfrDhgUMGI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- For responsive/ width="560" height="315" -->
+                    </div>
+                </article>
+            </section>
+
+            <!-- Section 5 - Documentary -->
+            <section id="documentary" class="main-section">
+                <h2 class="section-title">Documentary</h2>
+                <article class="small-width">
+                    <div class="section-content-column">
+                        <div class="section-content-quote">
+                            <i class="fas fa-quote-left quote-icon-black"></i>
+                            <p>"MAKERS is a media brand that exists to accelerate the women's movement through stories of real-life experiences that ignite passion and action."</p>
+                        </div>
+                        <h2 id="docu-text" class="mrg-top">They created this video in which we can listen to Katherine Johnson talk about her career and achievements.</h2>
+                    </div>
+                    <a id="docu-image" class="section-content-center" href="https://www.makers.com/profiles/591f267c6c3f646439558630/5543f46de4b0f61941a497b8" target="_blank">
+                        <i class="fas fa-external-link-alt fade-content quote-icon"></i></a>
+                </article>
+            </section>
+
+            <!-- Section 6 - More -->
+            <section id="more" class="main-section">
+                <h2 class="section-title">More</h2>
+                <article class="small-width">
+                    <div id="more-books">
+                        <h3 id="children-book">Books for children</h3>
+                        <div class="section-content-column">
+                            <div class="section-content-quote">
+                                <i class="far fa-lightbulb quote-icon"></i>
+                                <p>Katherine Johnson's inspiring story can be found in many books for children that you may want to offer to little ones around you. Here are a few and you can find more!</p>
+                            </div>
+                            <div id="more-books-images">
+                                <a href="https://www.amazon.com/Reaching-Moon-Autobiography-Mathematician-Katherine/dp/1534440836/ref=sr_1_1?crid=23ZLUSMN9YJU5&keywords=books+katherine+G+johnson&qid=1554991557&s=gateway&sprefix=hidden+%2Caps%2C235&sr=8-1" 
+                                    class="fade-content block" target="_blank"><img class="image" src="assets/images/reaching_for_the_moon.jpg" alt="Reaching for the moon - Children book about Katherine Johnson" 
+                                    title="Author: Katherine Johnson - Publisher: Atheneum Books for Young Readers"></a>
+                                <a href="https://www.amazon.com/Counting-Katherine-Johnson-Saved-Apollo/dp/1250137527/ref=sr_1_2?crid=23ZLUSMN9YJU5&keywords=books+katherine+G+johnson&qid=1554991557&s=gateway&sprefix=hidden+%2Caps%2C235&sr=8-2" 
+                                    class="fade-content block" target="_blank"><img class="image" src="assets/images/counting_on_katherine.jpg" alt="Counting on Katherine - Children book about Katherine Johnson" 
+                                    title="Author: Helaine Becker, Illustrator: Tiemdow Phumiruk, Publisher: Henry Holt and Co."></a>
+                                <a href="https://www.amazon.com/Katherine-Johnson-You-Should-Meet/dp/153440340X/ref=sr_1_3?crid=23ZLUSMN9YJU5&keywords=books+katherine+G+johnson&qid=1554991557&s=gateway&sprefix=hidden+%2Caps%2C235&sr=8-3" 
+                                    class="fade-content block" target="_blank"><img class="image" src="assets/images/katherine_johnson_you_should_meet.jpg" alt="Katherine Johnson, You should meet - Children book" 
+                                    title="Author: Thea Feldman, Illustrator: Alyssa Petersen, Publisher: Simon Spotlight"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="more-doll" class="mrg-top">
+                        <h3 class="mrg-top">Barbie doll by Mattel</h3>
+                        <div class="section-content-column">
+                            <div class="section-content-quote">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"The Barbie® Inspiring Women™ Katherine G. Johnson doll celebrates the achievements of a pioneer 
+                                    who broke through barriers of race and gender. Like the trajectories she calculated, 
+                                    Katherine's contributions inspire young people to excel in math and science, and to reach for 
+                                    the stars."
+                                    <a class="link block mrg-top" href="https://barbie.mattel.com/shop/en-us/ba/inspiring-women-series/barbie-inspiring-women-series-katherine-johnson-doll-fjh63" 
+                                        target="_blank">See more here</a>
+                                </p>
+                            </div>
+                            <img id="doll-image" src="assets/images/Katherine_G_Johnson_Barbie_doll.jpeg" 
+                                alt="Katherine G. Johnson Barbie doll - Copyright Mattel" title="Copyright owner: Mattel">
+                        </div>
+                    </div>
+                </article>
+            </section>
+            
+            <!-- Section 7 - Resources -->
+            <section id="resources" class="main-section">
+                <h2 class="section-title">Additional resources</h2>
+                    <ul id="resources-list" class="small-width">
+                        <li class="resources-item"><a class="link-black" href="https://www.nasa.gov/content/katherine-johnson-biography" 
+                            target="_blank">Katherine Johnson biography on NASA</a></li>
+                        <li class="resources-item"><a class="link-black" href="https://crgis.ndc.nasa.gov/historic/Katherine_Johnson" 
+                            target="_blank">More about Katherine Johnson on NASA</a></li>
+                        <li class="resources-item"><a class="link-black" href="https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ" 
+                            target="_blank">NASA YouTube channel</a></li>
+                        <li class="resources-item"><a class="link-black" href="https://en.wikipedia.org/wiki/Timeline_of_women_in_science" 
+                            target="_blank">Timeline of Women in Science on Wikipedia</a></li>
+                    </ul>
+            </section>
+
+            <!-- Footer & credits section -->
+            <footer>
+                <p><a class="footer-link" href="https://github.com/codingk8/shooting-for-the-moon" target="_blank">About</a>   
+                    |   Made with code 👩🏻‍💻 and care ✨in Paris, France   
+                    |   By <a class="footer-link" href="https://github.com/codingk8" target="_blank">Codingk8</a> 
+                    for <a href="https://www.freecodecamp.org"><img class="img-fluid minilogo" src="assets/images/freeCodeCamp150.jpg" 
+                        alt="freeCodeCamp logo small size"></a> - 2019
+                </p>
+                <p>All contents <a class="link" href="README.md" target="_blank">credits and copyrights are detailed here</a></p>
+            </footer>
+
+            <!-- Section Apollo 11 on the Moon -->
+            <section id="moon">
+                <h2 id="moon-text">"That's one small step for a man, one giant leap for Mankind" - Neil Armstrong</h2>
+            </section>
+
+        </main>
+
+        <!-- Import jQuery CDN - ALWAYS CHECK THE VERSION - From Bootstrap 20190214 -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!-- Import jQuery CDN from jQuery -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <!-- Import js scripts -->
+        <script src="script.js"></script>
+
+        <!-- Import freeCodeCamp test link script 
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        -->
+
+    </body>
+
+<!--
+    End of HTML file ;o)
+-->
