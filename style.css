@@ -1,0 +1,549 @@
+/* ----------------------------------------------------------------------------------
+    Made with code and care in Paris, France, by Codingk8 - 2019 - Twitter: @codingk8
+
+    Project made for the freeCodeCamp curriculum, "Responsive Web Design" Certification
+    Project #1 - Tribute Page
+
+    Title: Shooting for the moon - A tribute page to Katherine Johnson
+-------------------------------------------------------------------------- */
+
+/* Google font
+
+font-family: 'East Sea Dokdo', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+*/
+
+
+/* ------------------------ */
+/* --- General style => --- */
+/* ------------------------ */
+
+:root {
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    position: relative; /* For the Bootstrap scroll spy */
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body p {
+    margin: 0px;
+}
+
+h1, h2 {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 5rem;
+    line-height: 0.8;
+}
+
+h3 {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 3.5rem;
+    line-height: 0.8;
+}
+
+h2 {
+    margin: 25px 50px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+
+/* ----------------------- */
+/* --- Header style => --- */
+/* ----------------------- */
+
+header {
+    text-align: center;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 0px 0px;
+    padding-top: 30px;
+
+    min-height: 90vh;
+
+    background-image: url("assets/images/matthew-n-360127-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-div {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: none;
+}
+
+
+/* ----------------------- */
+/* --- NavBar style => --- */
+/* ----------------------- */
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    min-height: 10vh;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    /* justify-content: Bootstrap class on the tag */
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0; /* Removes the space below */
+}
+
+nav ul li {
+    list-style-type: none;
+
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2rem;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li:hover {
+    color: white;
+    text-decoration-style: solid;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration-style: solid;
+    text-decoration: underline;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+
+/* ----------------------------- */
+/* --- All sections style => --- */
+/* ----------------------------- */
+
+.main-section {
+    margin: 0px 0px;
+    padding: 8vh 20px;
+}
+
+.link {
+    color:white;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.link-black {
+    color: black;
+    text-decoration: underline;
+}
+
+.link-black:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.block {
+    display: block;
+}
+
+.mrg-top {
+    margin-top: 20px;
+}
+
+.small-width {
+    width: 75%;
+    margin: auto;
+}
+
+.image {
+    height: 300px;
+    display: block;
+    margin: 20px 30px;
+}
+
+.section-content-quote {
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap; */
+    display: inline-block;
+}
+
+.fas, .far {
+    float: left;
+}
+
+.section-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.section-content-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade-content:hover {
+    opacity: 0.5;
+}
+
+.quote-icon {
+    margin: 0 15px 0 0;
+    font-size: 4rem;
+    color: white;
+}
+
+.quote-icon-black {
+    margin: 0 15px 0 0;
+    font-size: 4rem;
+    color: black;
+}
+
+
+/* ----------------------------------- */
+/* --- Section 1 - Introduction => --- */
+/* ----------------------------------- */
+
+#introduction {
+    background-color: lightgrey;
+    color: white;
+}
+
+#img-div {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+/* ------------------------------- */
+/* --- Section 2 - Facts => --- */
+/* ------------------------------- */
+
+.fact-li {
+    margin-bottom: 1rem;
+}
+
+
+/* --------------------------- */
+/* --- Section 3 - Book => --- */
+/* --------------------------- */
+
+#book {
+    background-color: black;
+    color: white;
+}
+
+#book-image {
+    height: 300px;
+    display: block;
+    margin: 20px 30px 0px 30px;
+}
+
+
+/* ---------------------------- */
+/* --- Section 4 - Movie => --- */
+/* ---------------------------- */
+
+#movie {
+    background-color: lightgrey;
+    color: white;
+}
+
+#movie-div {
+    border-bottom: solid 0.5px white;
+    padding-bottom: 20px;
+}
+
+#movie-image {
+    height: 300px;
+    display: block;
+    margin: 0px 30px 20px 30px;
+}
+
+#movie-trailer {
+    text-align: center;
+}
+
+iframe {
+    width: 711px;
+    height: 410px;
+    border: none;
+}
+
+
+/* ---------------------------------- */
+/* --- Section 5 - Documentary => --- */
+/* ---------------------------------- */
+
+#docu-text {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#docu-image {
+    background-image: url("assets/images/Katherine_Johnson_on_Makers.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 500px; /* For the image to display well, Otherwise she takes the size of the icon */
+}
+
+
+/* --------------------------- */
+/* --- Section 6 - More => --- */
+/* --------------------------- */
+
+#more {
+    background-color: lightgrey;
+    color: white;
+}
+
+#more-books {
+    border-bottom: solid 0.5px white;
+    padding-bottom: 20px;
+}
+
+#more-books-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#doll-image {
+    height: 300px;
+    display: block;
+    margin: 20px 30px 0px 30px;
+}
+
+
+/* ------------------------------------------- */
+/* --- Section 7 - Resources => --- */
+/* ------------------------------------------- */
+
+
+
+/* ----------------------- */
+/* --- Footer style => --- */
+/* ----------------------- */
+
+footer {
+    background-color: black;
+    color: white;
+
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 1.5rem;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    text-align: center;
+
+    min-height: 10vh;
+
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link {
+    color:white;
+    text-decoration: underline;
+}
+
+.footer-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.minilogo {
+    max-width: 100%;
+    height: auto;
+}
+
+.minilogo:hover {
+    opacity: 0.5;
+}
+
+
+/* ------------------------------------------- */
+/* --- Section - Moon picture => --- */
+/* ------------------------------------------- */
+
+#moon {
+    background-image: url("assets/images/man_on_the_Moon_NASA.jpg");
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vmin;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: white;
+}
+
+#moon-text {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+/* --------------------- */
+/* --- Media Queries --- */
+/* --------------------- */
+
+/* Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... } */
+
+@media (max-width: 767.98px) {
+    :root {
+        font-size: 12px;
+    }
+
+    h1, h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        line-height: 0.5;
+    }
+
+    .small-width {
+        width: 90%;
+        margin: auto;
+    }
+
+    .section-content-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        width: 320px;
+        height: 180px;
+    }
+
+    #docu-image {
+        height: 125px;
+    }
+
+    #doll-image {
+        width: 250px;
+        height: auto;
+        margin: 20px 0 0 0;
+    }
+
+    #book-image {
+        margin: 20px 0 0 0;
+    }
+
+    #movie-image {
+        margin: 0 0 20px 0;
+    }
+
+    #moon {
+        background-position: center center;
+
+        min-height: 100vmax;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... } */
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... } */
+
+/* Medium @ Large devices */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+    .small-width {
+        width: 90%;
+        margin: auto;
+    }
+
+    .section-content-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    #docu-image {
+        height: 350px;
+    }
+
+    #moon {
+        min-height: 90vmax;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+
+
+
+
+/* --------------------------- */
+/* --- End of CSS file :o) --- */
+/* --------------------------- */
