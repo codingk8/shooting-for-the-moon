@@ -71,7 +71,7 @@
 
 ## Intellectual property and copyrights Disclaimer
 
-##### I wrote the code and share below the credits and copyrights of the contents I've used in the website and that do NOT belong to me
+##### I wrote the code and share below the credits and copyrights of the contents I've used in the website and that DO NOT belong to me
 ##### If you encounter mistakes in the attribution of these rights, please be sure to let me know (best contact is on [Twitter](https://twitter.com/codingk8)) so that I can update the information
 
 + Moon top picture (also used for the favicon) - Credit: photo by [Matthew N](https://unsplash.com/photos/zrzy-NPzccs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
