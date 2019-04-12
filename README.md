@@ -76,8 +76,8 @@
 
 + Moon top picture (also used for the favicon) - Credit: photo by [Matthew N](https://unsplash.com/photos/zrzy-NPzccs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
 + <ins>Hidden figures</ins> book and book cover - Copywritgh owners: Margot Lee Shetterly & HarperCollins Publishers
-+ "Hidden figures" movie, movie poster & trailer - Copyright owner: Twentieth Century Fox<br>
-+ "Katherine G. Johnson" documentary - Publisher: Atheneum Books for Young Readers
++ "Hidden figures" movie, movie poster & trailer - Copyright owner: Twentieth Century Fox
++ "Katherine G. Johnson" documentary - Copyright owners: [Makers](https://www.makers.com/)
 + <ins>Reaching for the moon</ins>, children book about Katherine Johnson - Author: Katherine Johnson - Publisher: Atheneum Books for Young Readers
 + <ins>Counting on Katherine</ins>, children book about Katherine Johnson - Author: Helaine Becker, Illustrator: Tiemdow Phumiruk, Publisher: Henry Holt and Co.
 + <ins>Katherine Johnson - You should meet</ins>, children book about Katherine Johnson - Author: Thea Feldman, Illustrator: Alyssa Petersen, Publisher: Simon Spotlight
